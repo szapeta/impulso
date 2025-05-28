@@ -96,7 +96,7 @@ export default function Juego({ jugador }) {
       </div>
 
       {/* Botón de carga */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-0">
+      <div className="select-none touch-none absolute bottom-4 left-1/2 transform -translate-x-1/2 z-0">
         <motion.button
           onMouseDown={empezarAcumular}
           onMouseUp={soltarCarga}
